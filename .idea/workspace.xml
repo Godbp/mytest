@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3efd33b-da35-45cb-922c-0c522033cdbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chrome_dp/chromedp_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chrome_dp/m_chromedp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_magick/m_magick.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image_magick/test_magick.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chrome_dp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +33,13 @@
     <property name="ask.go.tool.to.install.GoGolangCILintTaskConsumer" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chrome_dp" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dustess\src\workSpace\mytest\chrome_dp" />
+    </key>
   </component>
   <component name="RunManager" selected="Go Test.TestChrome in github.com/Godbp/mytest/chrome_dp">
     <configuration name="go build test_chromedp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
