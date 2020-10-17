@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3efd33b-da35-45cb-922c-0c522033cdbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chrome_dp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_url/url.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_url/url_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +34,7 @@
     <property name="ask.go.tool.to.install.GoGolangCILintTaskConsumer" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chrome_dp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -41,7 +42,7 @@
       <recent name="D:\dustess\src\workSpace\mytest\chrome_dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestChrome in github.com/Godbp/mytest/chrome_dp">
+  <component name="RunManager" selected="Go Test.TestEcode in github.com/Godbp/mytest/my_url">
     <configuration name="go build test_chromedp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,8 +63,31 @@
       <pattern value="^\QTestChrome\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestEcode in github.com/Godbp/mytest/my_url" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/my_url" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/my_url" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestEcode\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="url_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/my_url" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="github.com/Godbp/mytest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/my_url/url_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestEcode in github.com/Godbp/mytest/my_url" />
+        <item itemvalue="Go Test.url_test.go" />
         <item itemvalue="Go Test.TestChrome in github.com/Godbp/mytest/chrome_dp" />
         <item itemvalue="Go Build.go build test_chromedp.go" />
       </list>
@@ -81,10 +105,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="615" y="296" key="EditFileWatcherDialog/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601459286078" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1601459285184">
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1602239396354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601459285184" />
+    <state x="739" y="275" key="FileChooserDialogImpl/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602239396354" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1601462839305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
