@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e3efd33b-da35-45cb-922c-0c522033cdbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_slices/slices_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_slices/test_slices.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_base/test_string/string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_base/test_string/test_string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip/zip.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zip/zip_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,36 +54,21 @@
     <property name="ask.go.tool.to.install.GoGolangCILintTaskConsumer" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zip" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dustess\src\workSpace\mytest\zip" />
+      <recent name="D:\dustess\src\workSpace\mytest\my_slices" />
       <recent name="D:\dustess\src\workSpace\mytest" />
       <recent name="D:\dustess\src\workSpace\mytest\chrome_dp" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dustess\src\workSpace\mytest\go_base" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Test.slices_test.go">
-    <configuration name="go build test_chromedp.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/chrome_dp/test_chromedp.go" />
-      <package value="workSpace/mytest" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestChrome in github.com/Godbp/mytest/chrome_dp" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$/chrome_dp" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Godbp/mytest/chrome_dp" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestChrome\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.zip_test.go">
     <configuration name="TestEcode in github.com/Godbp/mytest/my_url" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$/my_url" />
@@ -73,6 +78,27 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QTestEcode\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMySting in github.com/Godbp/mytest/go_base/test_string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/go_base/test_string" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/go_base/test_string" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestMySting\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/zip" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="github.com/Godbp/mytest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/zip/api_test.go" />
       <method v="2" />
     </configuration>
     <configuration name="slices_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -85,23 +111,23 @@
       <filePath value="$PROJECT_DIR$/my_slices/slices_test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="url_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="zip_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$/my_url" />
+      <working_directory value="$PROJECT_DIR$/zip" />
       <framework value="gotest" />
       <kind value="FILE" />
       <package value="github.com/Godbp/mytest" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/my_url/url_test.go" />
+      <filePath value="$PROJECT_DIR$/zip/zip_test.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.zip_test.go" />
+        <item itemvalue="Go Test.api_test.go" />
+        <item itemvalue="Go Test.TestMySting in github.com/Godbp/mytest/go_base/test_string" />
         <item itemvalue="Go Test.slices_test.go" />
         <item itemvalue="Go Test.TestEcode in github.com/Godbp/mytest/my_url" />
-        <item itemvalue="Go Test.url_test.go" />
-        <item itemvalue="Go Test.TestChrome in github.com/Godbp/mytest/chrome_dp" />
-        <item itemvalue="Go Build.go build test_chromedp.go" />
       </list>
     </recent_temporary>
   </component>
@@ -109,53 +135,64 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="615" y="296" key="EditFileWatcherDialog" timestamp="1601459286078">
+    <state x="615" y="296" key="EditFileWatcherDialog" timestamp="1604925482471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="296" key="EditFileWatcherDialog/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601459286078" />
+    <state x="615" y="296" key="EditFileWatcherDialog/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925482471" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1602239396354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602239396354" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1603091196010">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604925952437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603091196010" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1603091196010">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925952437" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604925952437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603091196010" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1603091196010">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925952437" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604925952437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603091196010" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1603091196010">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925952437" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604925952437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603091196010" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602934256765">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925952437" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604925952137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602934256765" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1602934256764">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925952137" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604925952137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602934256764" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1602934256764">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925952137" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604925952137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602934256764" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1602934256764">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925952137" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604925952137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602934256764" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1601459288330">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925952137" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1604925483072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1601459288330" />
+    <state x="461" y="164" key="SettingsEditor/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925483072" />
   </component>
 </project>
