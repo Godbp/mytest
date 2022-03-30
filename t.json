@@ -1,0 +1,18 @@
+1、立即触发单独逻辑处理 立即触发为新数据 直接在内存里面统计数据排序 直接做insert
+2、定时任务单独逻辑处理 修改统计 添加customer+sopID 为Key 将nodeID addtoset到数组里面，避免查询做数据统计
+3、正常触发逻辑优化同2
+4、job_config 数据备份 删除
+5、user_task user_task_execute_item 分表查询 按照 sopID  任务ID 进行分表
+        1、解决数据量大问题
+        2、缩小查询范围
+
+sop   count   node
+A     1        1
+B     1        1
+A     2        2
+
+SOP  count         node
+A     index         1      SOP+A = [node1]
+B     index         1      SOP+B = [node1]
+A     index         2      SOP+A = [node1, node2]
+A     index         3      SOP+A = [node1, node2, node3]
