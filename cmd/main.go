@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
+	my_slice "github.com/Godbp/mytest/go_base/slices"
 	"github.com/bilibili/gengine/builder"
 	"github.com/bilibili/gengine/context"
 	"github.com/bilibili/gengine/engine"
 	"github.com/sirupsen/logrus"
-	"mytest/myString"
+	//"github.com/Godbp/mytest/myString"
 )
 
 // gengine 集群部署 、高并发
@@ -65,8 +66,11 @@ func main() {
 	//r := my_number.ChuFa(18982108252, 1000)
 	//r := my_url.GetHost("https://itg-tezign-files.tezign.com/5f09838316b108b549e824fe77e23a62.jpg?Expires=2270972276&OSSAccessKeyId=LTAIiH7NZflLSZy3&Signature=zNqS6cRl1QG0knlJAwB5PIAxKBw%3D&response-content-disposition=attachment%3B%20filename%3D%22RT31oo-%25E8%2588%2592%25E8%2580%2590%25E7%2588%25BD%25E8%25BA%25AB%25E9%25A6%2599%25E4%25BD%2593%25E5%2596%25B7%25E9%259B%25BE%2520%25E6%25B8%2585%25E9%259A%2590%25E5%258A%25B2%25E7%2588%25BD%252012X150ML-690208128.jpg%22%3B%20filename%2A%3Dutf-8%27%27RT31oo-%25E8%2588%2592%25E8%2580%2590%25E7%2588%25BD%25E8%25BA%25AB%25E9%25A6%2599%25E4%25BD%2593%25E5%2596%25B7%25E9%259B%25BE%2520%25E6%25B8%2585%25E9%259A%2590%25E5%258A%25B2%25E7%2588%25BD%252012X150ML-690208128.jpg&response-content-type=application%2Foctet-stream")
 	//r, filePath, _ := my_url.CreateTempFile(ctx.TODO(), "https://itg-tezign-files.tezign.com/5f09838316b108b549e824fe77e23a62.jpg?Expires=2270972276&OSSAccessKeyId=LTAIiH7NZflLSZy3&Signature=zNqS6cRl1QG0knlJAwB5PIAxKBw%3D&response-content-disposition=attachment%3B%20filename%3D%22RT31oo-%25E8%2588%2592%25E8%2580%2590%25E7%2588%25BD%25E8%25BA%25AB%25E9%25A6%2599%25E4%25BD%2593%25E5%2596%25B7%25E9%259B%25BE%2520%25E6%25B8%2585%25E9%259A%2590%25E5%258A%25B2%25E7%2588%25BD%252012X150ML-690208128.jpg%22%3B%20filename%2A%3Dutf-8%27%27RT31oo-%25E8%2588%2592%25E8%2580%2590%25E7%2588%25BD%25E8%25BA%25AB%25E9%25A6%2599%25E4%25BD%2593%25E5%2596%25B7%25E9%259B%25BE%2520%25E6%25B8%2585%25E9%259A%2590%25E5%258A%25B2%25E7%2588%25BD%252012X150ML-690208128.jpg&response-content-type=application%2Foctet-stream")
-	myString.SliceList([]string{"1", "2", "3", "4", "5", "6"}, 7)
-	//fmt.Printf("%s filePath", r)
+	//myString.SliceList([]string{"1", "2", "3", "4", "5", "6"}, 7)
+	//addr := struct_tag.GetAddress()
+	//fmt.Printf("%+v", addr)
+	my_slice.MySlices2([]string{"1","2","3", "4"})
+
 
 }
 

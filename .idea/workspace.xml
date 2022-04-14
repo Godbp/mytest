@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,10 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3efd33b-da35-45cb-922c-0c522033cdbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eventBus/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct_tag/tag_omitempty.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mytest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_base/slices/slices_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_base/slices/slices_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_base/slices/test_slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_base/slices/test_slices.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -51,9 +58,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ask.go.tool.to.install.GoGolangCILintTaskConsumer" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qw-chatroom-svc" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -67,66 +76,81 @@
       <recent name="D:\dustess\src\workSpace\mytest\go_base" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.zip_test.go">
-    <configuration name="TestEcode in github.com/Godbp/mytest/my_url" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/Godbp/mytest/cmd">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$/my_url" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Godbp/mytest/my_url" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestEcode\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/Godbp/mytest/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestMySting in github.com/Godbp/mytest/go_base/test_string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$/go_base/test_string" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/Godbp/mytest/go_base/test_string" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestMySting\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="api_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$/zip" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <package value="github.com/Godbp/mytest" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/zip/api_test.go" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="slices_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$/my_slices" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <package value="github.com/Godbp/mytest" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/my_slices/slices_test.go" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="zip_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$/zip" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <package value="github.com/Godbp/mytest" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/zip/zip_test.go" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/Godbp/mytest/cmd" />
         <item itemvalue="Go Test.zip_test.go" />
         <item itemvalue="Go Test.api_test.go" />
         <item itemvalue="Go Test.TestMySting in github.com/Godbp/mytest/go_base/test_string" />
         <item itemvalue="Go Test.slices_test.go" />
-        <item itemvalue="Go Test.TestEcode in github.com/Godbp/mytest/my_url" />
       </list>
     </recent_temporary>
   </component>
@@ -149,50 +173,15 @@
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="615" y="296" key="EditFileWatcherDialog" timestamp="1604925482471">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="615" y="296" key="EditFileWatcherDialog/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925482471" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1602239396354">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1602239396354" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1604989080205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604989080205" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1604989080205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604989080205" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1604989080205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604989080205" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1604989080205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604989080205" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604989080205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604989080205" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604989080205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604989080205" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604989080205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604989080205" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604989080205">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604989080205" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1604925483072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/1920.3.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604925483072" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/main.go</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package my_url
+package my_slice
 
 import (
 	"fmt"
