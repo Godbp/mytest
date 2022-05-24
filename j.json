@@ -1,101 +1,34 @@
-[
-  {
-    "_id": "6108ac50-0616-11ec-869a-aa68269f69f2",
-    "name": "",
-    "corp_name": "",
-    "corp_full_name": "",
-    "mobiles": [
-      {
-        "tel": "15210632690",
-        "type": "mobile",
-        "display": "手机"
+{
+  "account": "公司，用于租户区分",
+  "application": "应用标识，仅查询统计用",
+  "name": "规则名称，可空仅查询统计用",
+  "rules": [
+    {
+      "matchResult": "规则key，匹配规则后返回给调用方",
+      "rule": {
+        "operation": "and",
+        "items": [
+          {
+            "operation": "<",
+            "items": [{
+                "valueType": "variable",
+                "value": "age"
+              },
+              {
+                "valueType": "number",
+                "value" : 100
+              }]
+          },{
+            "operation": "!=",
+            "items": [{
+                "valueType": "variable",
+                "value": "age"
+              },
+              {
+                "valueType": "number",
+                "value" : 0
+              }]
+          }]
       }
-    ],
-    "position": "",
-    "source": "ad",
-    "prov_city": "",
-    "birthday": "",
-    "email": "",
-    "gender": 0,
-    "custom_fields": [],
-    "external_userid": "",
-    "avatar": "",
-    "type": 3,
-    "unionid": "",
-    "qwcreatetime": 0,
-    "uids": [
-      "1"
-    ],
-    "share_uids": [],
-    "remark": "邵瑞",
-    "description": "",
-    "tags": [],
-    "remark_corp_name": "",
-    "status": "uuid0",
-    "reason": "",
-    "price": 0,
-    "success_price": 0,
-    "pool": "",
-    "corp_id": "",
-    "updatetime": 0,
-    "gettime": 1629945372,
-    "add_time": 1629945372,
-    "add_way": null,
-    "updateuser": "",
-    "createuser": "1",
-    "is_del": false,
-    "from": 2222,
-    "mergetime": 0,
-    "create_clueTime": 0,
-    "pool_dynamic": "",
-    "createtime": 1629945372,
-    "contact_time": 1629946714,
-    "wx_clue_tags": [],
-    "log_time": 1629946714,
-    "log_type": "followRecord",
-    "remind_time": "",
-    "remind_id": "",
-    "recovery_time": "",
-    "recovery_id": "",
-    "cf_ts": 1144943376089481200,
-    "owner": "1",
-    "owner_status": "",
-    "last_owner": "",
-    "age": 0,
-    "national": "",
-    "nationality": "",
-    "education": "",
-    "major": "",
-    "id_card": "",
-    "wx": "",
-    "qq": "",
-    "mkScore": 0,
-    "mkScoreDetail": null,
-    "donePrice": 0,
-    "orderPrice": 0,
-    "order_status": [],
-    "dynamic_time": 0,
-    "biz_tags": [],
-    "have_sale_chance": false,
-    "duplicate": false,
-    "birthdayMonthAndDay": "",
-    "birthdayYear": 0,
-    "birthdayMonth": 0,
-    "birthdayDay": 0,
-    "categoryId": "00000000-0000-0000-0000-000000000000",
-    "address": "",
-    "province": 0,
-    "city": 0,
-    "district": 0,
-    "longitude": 0,
-    "latitude": 0,
-    "project": "",
-    "origin": "",
-    "add_origin": "",
-    "map_user_opt_id": "",
-    "vip_level": 0,
-    "is_read": true,
-    "intentionDegreeScore": 0,
-    "mergeStatus": 0
-  }
-]
+    }]
+}
