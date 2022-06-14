@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/Godbp/mytest/myString"
 	"github.com/bilibili/gengine/builder"
 	"github.com/bilibili/gengine/context"
 	"github.com/bilibili/gengine/engine"
@@ -58,6 +59,8 @@ type Builder struct {
 	Obj    interface{} `json:"obj"`    // 待执行对象
 }
 
+const c = 100
+
 func main() {
 	//test.MyEncrypt("18982108252", "vms-t2.tezign.com")
 	//test.GetImg("https://itg-tezign-files.tezign.com/t2/75fc4ab0d78fea079ae0cda8ae68493b.jpg?Expires=2270430124&OSSAccessKeyId=LTAIiH7NZflLSZy3&Signature=YPST8kSnpR99RJs7wqD%2FvzUVwgk%3D&response-content-disposition=attachment%3B%20filename%3D%22test%2520pic%252012.4.jpg%22%3B%20filename%2A%3Dutf-8%27%27test%2520pic%252012.4.jpg&response-content-type=application%2Foctet-stream")
@@ -69,8 +72,10 @@ func main() {
 	//addr := struct_tag.GetAddress()
 	//fmt.Printf("%+v", addr)
 	//my_slice.MySlices2([]string{"1","2","3", "4"})
-	rule()
-
+	//rule()
+	s := "2003"
+	res, err := myString.TransDelayTime(s)
+	fmt.Printf("%d \n %+v", res, err)
 }
 
 func rule() {

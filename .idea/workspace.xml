@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3efd33b-da35-45cb-922c-0c522033cdbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my_lua/lua.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_lua/test.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_struct/rule.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myString/repair.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myTime/time1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myTime/time_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/j.json" beforeDir="false" afterPath="$PROJECT_DIR$/j.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t.json" beforeDir="false" afterPath="$PROJECT_DIR$/t.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <recent name="D:\dustess\src\workSpace\mytest\go_base" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/Godbp/mytest/cmd">
+  <component name="RunManager" selected="Go Test.TestTime1 in github.com/Godbp/mytest/myTime">
     <configuration name="go build github.com/Godbp/mytest/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$" />
@@ -97,6 +94,18 @@
       <pattern value="^\QTestMySting\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestTime1 in github.com/Godbp/mytest/myTime" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/myTime" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/myTime" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestTime1\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="api_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$/zip" />
@@ -104,16 +113,6 @@
       <package value="github.com/Godbp/mytest" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/zip/api_test.go" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
-    <configuration name="slices_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$/my_slices" />
-      <kind value="FILE" />
-      <package value="github.com/Godbp/mytest" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/my_slices/slices_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestTime1 in github.com/Godbp/mytest/myTime" />
         <item itemvalue="Go Build.go build github.com/Godbp/mytest/cmd" />
         <item itemvalue="Go Test.zip_test.go" />
         <item itemvalue="Go Test.api_test.go" />
         <item itemvalue="Go Test.TestMySting in github.com/Godbp/mytest/go_base/test_string" />
-        <item itemvalue="Go Test.slices_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -155,5 +154,16 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/myTime/time1.go</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
