@@ -9,7 +9,9 @@ require (
 	git.dustess.com/mk-base/requests v1.0.1-0.20201015033208-71bb17bda636
 	git.dustess.com/mk-base/util v1.0.4
 	git.dustess.com/mk-biz/mk-plan-svc v1.0.27
+	github.com/bilibili/gengine v1.5.7
 	github.com/chromedp/cdproto v0.0.0-20200709115526-d1f6fc58448b
 	github.com/chromedp/chromedp v0.5.3
 	github.com/levigross/grequests v0.0.0-20190908174114-253788527a1a
+	github.com/sirupsen/logrus v1.6.0
 )
