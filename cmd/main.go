@@ -3,10 +3,12 @@ package main
 import (
 	"fmt"
 
+	my_slice "github.com/Godbp/mytest/go_base/slices"
 	"github.com/bilibili/gengine/builder"
 	"github.com/bilibili/gengine/context"
 	"github.com/bilibili/gengine/engine"
 	"github.com/sirupsen/logrus"
+	//"github.com/Godbp/mytest/myString"
 )
 
 // gengine 集群部署 、高并发
@@ -68,6 +70,10 @@ func main() {
 	// myString.SliceList([]string{"1", "2", "3", "4", "5", "6"}, 7)
 	//fmt.Printf("%s filePath", r)
 	rule()
+	//myString.SliceList([]string{"1", "2", "3", "4", "5", "6"}, 7)
+	//addr := struct_tag.GetAddress()
+	//fmt.Printf("%+v", addr)
+	my_slice.MySlices2([]string{"1", "2", "3", "4"})
 
 }
 
