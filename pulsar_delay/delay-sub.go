@@ -3,18 +3,14 @@ package sopdelay
 import (
 	"context"
 	"encoding/json"
-	"sync"
-	"time"
-
 	context2 "git.dustess.com/mk-base/context"
-	"git.dustess.com/mk-base/gin-ext/config"
 	"git.dustess.com/mk-biz/mk-plan-center/application/event/model"
-	"git.dustess.com/mk-biz/mk-plan-center/application/service/sop/engine"
 	"git.dustess.com/shared-golib/mesher/log/logrusx"
 	"git.dustess.com/shared-golib/pulsar-driver/constant"
 	"git.dustess.com/shared-golib/pulsar-driver/consumer"
 	"github.com/apache/pulsar-client-go/pulsar"
 	xerrors "github.com/pkg/errors"
+	"sync"
 )
 
 // 单例创建通知的消费者
@@ -30,14 +26,14 @@ func InitNodeDelayConsumer() {
 	}()
 
 	nodeDelayOnce.Do(func() {
-		conf := config.NewMKMongoConfig().Pulsar
 		var sub = pulsar.SubscriptionPositionLatest
 		var keyShare = pulsar.KeyShared
 		c := consumer.Config{
-			Addrs:                       conf.Addrs,
-			Topic:                       conf.Topic.SOPNodeDelay,
-			SubscriptionName:            conf.SubscriptionName.SOPNodeDelay,
-			Token:                       conf.Token,
+			Addrs:                       []string{"http://pulsar-vgp2awkmr4ne.tdmq-pulsar.ap-sh.public.tencenttdmq.com:8080"},
+			Topic:                       "pulsar-vgp2awkmr4ne/mk/sop_node_delay_test3",
+			Name:                        "pb",
+			Token:                       "eyJrZXlJZCI6InB1bHNhci12Z3AyYXdrbXI0bmUiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwdWxzYXItdmdwMmF3a21yNG5lX2FsaS10ZXN0In0.yWu-zTsJtgx_bSBzYrOcYgX-FmCQeKyuiYo_HrcmwF8",
+			SubscriptionName:            "pb_g",
 			SubscriptionType:            &keyShare,
 			RetryEnable:                 false,
 			SubscriptionInitialPosition: &sub,
@@ -106,19 +102,19 @@ func (h *nodeDelayHandler) handle(ctx context.Context, message []byte) error {
 	}
 
 	// todo 彭博 处理metrics埋点
-	startTime := time.Now()
+	//startTime := time.Now()
 	fields := logrusx.NewFields().Set("mq", "delayMQ").SetWithMap(data.GetTraceMap())
 	ctx = logrusx.ContextWithFields(context2.NewDetachContextWithCID(data.CompanyID, ""), fields)
 	logger := logrusx.WithContext(ctx)
 
-	logger.Infof("%s received data[%+v] nowTime[%+v]", funcName, data, startTime)
-	defer func() {
-		logger.Infof("%s processed timecost[%v]", funcName, time.Since(startTime))
-	}()
-
-	err = engine.NewDelayer(ctx).SubDelayMQ(data)
-	if err != nil {
-		logger.Errorf(err, "%s error[%+v] data[%+v]", funcName, err, data)
-	}
-	return err
+	//logger.Infof("%s received data[%+v] nowTime[%+v]", funcName, data, startTime)
+	//defer func() {
+	//	logger.Infof("%s processed timecost[%v]", funcName, time.Since(startTime))
+	//}()
+	logger.Infof("消费延迟队列成功 ---------")
+	//err = engine.NewDelayer(ctx).SubDelayMQ(data)
+	//if err != nil {
+	//	logger.Errorf(err, "%s error[%+v] data[%+v]", funcName, err, data)
+	//}
+	return nil
 }

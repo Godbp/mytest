@@ -2,12 +2,19 @@ package myString
 
 import (
 	"strconv"
-	"time"
 )
 
-// TransDelayTime 转换delay时间
-func TransDelayTime(delayTime string) (time.Duration, error) {
-	res := 0 * time.Second
+// 常量定义
+const (
+	Millisecond int64 = 1
+	Second            = 1000 * Millisecond
+	Minute            = 60 * Second
+	Hour              = 60 * Minute
+	Day               = 24 * Hour
+)
+
+// TransTimeFormat2Int 时间转换
+func TransTimeFormat2Int(delayTime string) (int64, error) {
 	repairStr := "000000000"
 	strLen := 9
 	// 向前补充缺失位数 "0"
@@ -18,17 +25,17 @@ func TransDelayTime(delayTime string) (time.Duration, error) {
 	if len(delayTime) > strLen {
 		delayTime = string([]byte(repairStr)[strLen:])
 	}
-	d, err := strconv.Atoi(string([]byte(delayTime)[:3]))
+	d, err := strconv.ParseInt(string([]byte(delayTime)[:3]), 10, 64)
 	if err != nil {
-		return res, err
+		return 0, err
 	}
-	h, err := strconv.Atoi(string([]byte(delayTime)[3:6]))
+	h, err := strconv.ParseInt(string([]byte(delayTime)[3:6]), 10, 64)
 	if err != nil {
-		return res, err
+		return 0, err
 	}
-	m, err := strconv.Atoi(string([]byte(delayTime)[6:]))
+	m, err := strconv.ParseInt(string([]byte(delayTime)[6:]), 10, 64)
 	if err != nil {
-		return res, err
+		return 0, err
 	}
-	return time.Duration(d)*24*time.Hour + time.Duration(h)*time.Hour + time.Duration(m)*time.Minute, nil
+	return d*Day + h*Hour + m*Minute, nil
 }

@@ -32,10 +32,10 @@ func newDelayProducer() *producer.Producer {
 func initDelayProducer() {
 	conf := config.NewMKMongoConfig().Pulsar
 	c := producer.Config{
-		Addrs: conf.Addrs,
-		Topic: conf.Topic.SOPNodeDelay,
-		Name:  conf.SubscriptionName.SOPNodeDelay,
-		Token: conf.Token,
+		Addrs: []string{"http://pulsar-vgp2awkmr4ne.tdmq-pulsar.ap-sh.public.tencenttdmq.com:8080"},
+		Topic: "pulsar-vgp2awkmr4ne/mk/sop_node_delay_test3",
+		Name:  "pb",
+		Token: "eyJrZXlJZCI6InB1bHNhci12Z3AyYXdrbXI0bmUiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwdWxzYXItdmdwMmF3a21yNG5lX2FsaS10ZXN0In0.yWu-zTsJtgx_bSBzYrOcYgX-FmCQeKyuiYo_HrcmwF8",
 	}
 	pulsar, err := producer.NewProducer(c, producer.SetBatchingMaxSize(model.PulsarMegSize))
 	if err != nil {

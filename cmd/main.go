@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/Godbp/mytest/myString"
+	"github.com/spaolacci/murmur3"
+
 	"github.com/bilibili/gengine/builder"
 	"github.com/bilibili/gengine/context"
 	"github.com/bilibili/gengine/engine"
 	"github.com/sirupsen/logrus"
+	"golang.org/x/sync/errgroup"
 	//"github.com/Godbp/mytest/myString"
 )
 
@@ -61,7 +63,7 @@ type Builder struct {
 
 const c = 100
 
-func main() {
+func main1() {
 	//test.MyEncrypt("18982108252", "vms-t2.tezign.com")
 	//test.GetImg("https://itg-tezign-files.tezign.com/t2/75fc4ab0d78fea079ae0cda8ae68493b.jpg?Expires=2270430124&OSSAccessKeyId=LTAIiH7NZflLSZy3&Signature=YPST8kSnpR99RJs7wqD%2FvzUVwgk%3D&response-content-disposition=attachment%3B%20filename%3D%22test%2520pic%252012.4.jpg%22%3B%20filename%2A%3Dutf-8%27%27test%2520pic%252012.4.jpg&response-content-type=application%2Foctet-stream")
 	//r := myString.Slice("我爱中国", -1, -4)
@@ -73,9 +75,46 @@ func main() {
 	//fmt.Printf("%+v", addr)
 	//my_slice.MySlices2([]string{"1","2","3", "4"})
 	//rule()
-	s := "2003"
-	res, err := myString.TransDelayTime(s)
-	fmt.Printf("%d \n %+v", res, err)
+	//s := "2003.453445545"
+	//res, err := strconv.ParseFloat(s, 10)
+	//res, err := myString.TransTimeFormat2Int("000000003"
+
+	fmt.Printf("%+v \n", Murmur3_32Hash("d9be3988-f44b-11ec-ba63-b61c4831a5ad"))
+}
+
+func Murmur3_32Hash(s string) uint32 {
+	h := murmur3.New32()
+	_, err := h.Write([]byte(s))
+	if err != nil {
+		return 0
+	}
+	// Maintain compatibility with values used in Java client
+	return h.Sum32() & 0x7fffffff
+}
+
+var (
+	g errgroup.Group
+)
+
+//func init() {
+//
+//	sopdelay.InitNodeDelayConsumer()
+//}
+
+func main() {
+	l := []string{"08cadb770259a669d83d82ea4a890ee6", "88d71f05ab73f91eecb36dba7caaa1c1", "f0aabdaa1a4e3f6f4ca2f00ddeecd422", "2a0ae76a53605058a48f015916807faa", "0e96e48ef6f5a58bf222b2b0a5800390"}
+	//for i := 0; i < 100; i++ {
+	//	uid := crypto.UUID()
+	//	fmt.Printf("这是uid[%s] 这是hash[%+v] 这是32求余=[%+v] \n", uid, Murmur3_32Hash(uid), Murmur3_32Hash(uid)%32)
+	//}
+	for _, uid := range l {
+
+		fmt.Printf("这是uid=[%s] 这是hash值=[%+v] 这是32位求余=[%+v] \n", uid, Murmur3_32Hash(uid), Murmur3_32Hash(uid)%32)
+	}
+
+	//1596076249   d9be3988-f44b-11ec-ba63-b61c4831a5ad    49877382
+	//1060384713   d9be4552-f44b-11ec-ba63-b61c4831a5ad    33137022
+
 }
 
 func rule() {

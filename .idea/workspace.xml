@@ -23,11 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3efd33b-da35-45cb-922c-0c522033cdbf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myString/repair.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myTime/time1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myTime/time_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel/ch.go" beforeDir="false" afterPath="$PROJECT_DIR$/channel/ch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel/ch_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/channel/ch_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/channel/consumer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/channel/product.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duanyan/t_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/duanyan/t_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duanyan/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/duanyan/test1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duanyan/test2.go" beforeDir="false" afterPath="$PROJECT_DIR$/duanyan/test2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_base/move/move_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_base/move/move_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_base/slices/slices_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_base/slices/slices_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_base/slices/test_slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_base/slices/test_slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myString/repair.go" beforeDir="false" afterPath="$PROJECT_DIR$/myString/repair.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myString/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/myString/slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pulsar_delay/delay-pub.go" beforeDir="false" afterPath="$PROJECT_DIR$/pulsar_delay/delay-pub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pulsar_delay/delay-sub.go" beforeDir="false" afterPath="$PROJECT_DIR$/pulsar_delay/delay-sub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pulsar_delay/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/pulsar_delay/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +59,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1iE3KZlGXTleZqNUVPjdQDRZfoE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,80 +81,100 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qw-drainag-promotion-svc" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\mytest\pulsar_delay" />
+      <recent name="D:\code\mytest\cmd" />
       <recent name="D:\dustess\src\workSpace\mytest\zip" />
       <recent name="D:\dustess\src\workSpace\mytest\my_slices" />
       <recent name="D:\dustess\src\workSpace\mytest" />
-      <recent name="D:\dustess\src\workSpace\mytest\chrome_dp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dustess\src\workSpace\mytest\go_base" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestTime1 in github.com/Godbp/mytest/myTime">
-    <configuration name="go build github.com/Godbp/mytest/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="mytest" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Godbp/mytest/cmd" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/cmd/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMySting in github.com/Godbp/mytest/go_base/test_string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAppendAddress in github.com/Godbp/mytest/go_base/slices (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$/go_base/test_string" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Godbp/mytest/go_base/test_string" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestMySting\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTime1 in github.com/Godbp/mytest/myTime" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$/myTime" />
+      <working_directory value="$PROJECT_DIR$/go_base/slices" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/Godbp/mytest/myTime" />
+      <package value="github.com/Godbp/mytest/go_base/slices" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestTime1\E$" />
+      <pattern value="^\QTestAppendAddress\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="api_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAppendAddress in github.com/Godbp/mytest/go_base/slices" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$/zip" />
-      <kind value="FILE" />
-      <package value="github.com/Godbp/mytest" />
+      <working_directory value="$PROJECT_DIR$/go_base/slices" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/go_base/slices" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/zip/api_test.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestAppendAddress\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMove in github.com/Godbp/mytest/go_base/move" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/go_base/move" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/go_base/move" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMove\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="zip_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="ch_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="mytest" />
-      <working_directory value="$PROJECT_DIR$/zip" />
+      <working_directory value="$PROJECT_DIR$/channel" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="github.com/Godbp/mytest" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/zip/zip_test.go" />
+      <filePath value="$PROJECT_DIR$/channel/ch_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestTime1 in github.com/Godbp/mytest/myTime" />
-        <item itemvalue="Go Build.go build github.com/Godbp/mytest/cmd" />
-        <item itemvalue="Go Test.zip_test.go" />
-        <item itemvalue="Go Test.api_test.go" />
-        <item itemvalue="Go Test.TestMySting in github.com/Godbp/mytest/go_base/test_string" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestAppendAddress in github.com/Godbp/mytest/go_base/slices (1)" />
+        <item itemvalue="Go Test.TestMove in github.com/Godbp/mytest/go_base/move" />
+        <item itemvalue="Go Test.TestAppendAddress in github.com/Godbp/mytest/go_base/slices" />
+        <item itemvalue="Go Test.ch_test.go (1)" />
       </list>
     </recent_temporary>
   </component>

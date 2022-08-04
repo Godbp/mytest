@@ -34,7 +34,8 @@ func Slice(str string, start, length int) string {
 }
 
 // SliceList 数组切片
-func SliceList(l []string, slice int) []string {
+func SliceList(l []string, slice int) [][]string {
+	res := make([][]string, 0, 0)
 	length := len(l) / slice
 	y := len(l) % slice
 	if y > 0 {
@@ -47,9 +48,10 @@ func SliceList(l []string, slice int) []string {
 			end = len(l)
 		}
 		if star > len(l) {
-			return nil
+			return res
 		}
+		res = append(res, l[star:end])
 		fmt.Printf("%d === %+v", i, l[star:end])
 	}
-	return nil
+	return res
 }
