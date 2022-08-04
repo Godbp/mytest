@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
@@ -208,4 +209,254 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3efd33b-da35-45cb-922c-0c522033cdbf" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/distributed_lock/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed_lock/redis_cache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mytest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/struct_tag/tag_omitempty.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mytest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_base/slices/slices_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_base/slices/slices_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_base/slices/test_slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_base/slices/test_slices.go" afterDir="false" />
+>>>>>>> e484be8102c53589e816028d4eb0f1bb97d5cd86
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="GOROOT" url="file:///usr/lib/go-1.13" />
+=======
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../Program Files/Go" />
+>>>>>>> e484be8102c53589e816028d4eb0f1bb97d5cd86
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/go" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1iE3KZlGXTleZqNUVPjdQDRZfoE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ask.go.tool.to.install.GoGolangCILintTaskConsumer" value="true" />
+<<<<<<< HEAD
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+=======
+>>>>>>> e484be8102c53589e816028d4eb0f1bb97d5cd86
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+<<<<<<< HEAD
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mk-plan-svc" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qw-chatroom-svc" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+>>>>>>> e484be8102c53589e816028d4eb0f1bb97d5cd86
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dustess\src\workSpace\mytest\zip" />
+      <recent name="D:\dustess\src\workSpace\mytest\my_slices" />
+      <recent name="D:\dustess\src\workSpace\mytest" />
+      <recent name="D:\dustess\src\workSpace\mytest\chrome_dp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dustess\src\workSpace\mytest\go_base" />
+    </key>
+  </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Go Test.zip_test.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEcode in github.com/Godbp/mytest/my_url" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/my_url" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/my_url" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestEcode\E$" />
+=======
+  <component name="RunManager" selected="Go Build.go build github.com/Godbp/mytest/cmd">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/Godbp/mytest/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/cmd" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/main.go" />
+>>>>>>> e484be8102c53589e816028d4eb0f1bb97d5cd86
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMySting in github.com/Godbp/mytest/go_base/test_string" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/go_base/test_string" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Godbp/mytest/go_base/test_string" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestMySting\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+      <go_parameters value="-i" />
+=======
+>>>>>>> e484be8102c53589e816028d4eb0f1bb97d5cd86
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/zip" />
+      <kind value="FILE" />
+      <package value="github.com/Godbp/mytest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/zip/api_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="slices_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/my_slices" />
+      <kind value="FILE" />
+      <package value="github.com/Godbp/mytest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/my_slices/slices_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zip_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$/zip" />
+      <kind value="FILE" />
+      <package value="github.com/Godbp/mytest" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/zip/zip_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/Godbp/mytest/cmd" />
+        <item itemvalue="Go Test.zip_test.go" />
+        <item itemvalue="Go Test.api_test.go" />
+        <item itemvalue="Go Test.TestMySting in github.com/Godbp/mytest/go_base/test_string" />
+        <item itemvalue="Go Test.slices_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/cmd/main.go</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+>>>>>>> e484be8102c53589e816028d4eb0f1bb97d5cd86
+>>>>>>> 1ad3930011912418021a1b89cf395635629180bd
 </project>

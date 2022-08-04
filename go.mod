@@ -16,7 +16,7 @@ require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.8.1
+	github.com/spaolacci/murmur3 v1.1.0
 	github.com/zhuxiujia/GoMybatis v6.5.8+incompatible
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	gopkg.in/go-playground/validator.v8 v8.18.2
 )
